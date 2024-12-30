@@ -11,4 +11,10 @@ export class ProductRepository {
 
         return newProduct;
     }
+
+    async getAllProducts(): Promise<IProduct[]> {
+        const products = await Product.find().lean().select('-__v');
+
+        return products;
+    }
 }

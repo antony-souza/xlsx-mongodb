@@ -13,4 +13,8 @@ router.post('/products/create', (req, res) => {
     productController.createProduct(req, res);
 });
 
-export default router;
+router.get('/products/all', (req, res) => {
+    productController.getAllProducts(req, res);
+});
+
+export const productRouter = router;

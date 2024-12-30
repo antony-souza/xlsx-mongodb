@@ -14,4 +14,13 @@ export default class ProductController {
             return res.status(500).json({ message: error.message });
         }
     }
+
+    async getAllProducts(req: Request, res: Response) {
+        try {
+            const products = await this.productService.getAllProducts();
+            return res.status(200).json(products);
+        } catch (error) {
+            return res.status(500).json({ message: error.message });
+        }
+    }
 }

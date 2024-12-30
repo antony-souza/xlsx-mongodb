@@ -1,5 +1,4 @@
-import { CreateProductDTO, CreateProductDTOSchema } from "../dto/create-product-dto";
-import { IProduct } from "../interfaces/interfaces";
+import { CreateProductDTO } from "../dto/create-product-dto";
 import { ProductRepository } from "../repositories/product.repository";
 
 export class ProductService {
@@ -8,8 +7,10 @@ export class ProductService {
 
     async createProduct(createProductDto: CreateProductDTO) {
 
-        CreateProductDTOSchema.parse(createProductDto); 
-
         return await this.productRepository.createProduct(createProductDto);
+    }
+
+    async getAllProducts() {
+        return await this.productRepository.getAllProducts();
     }
 }
