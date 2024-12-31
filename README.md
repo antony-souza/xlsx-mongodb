@@ -29,11 +29,11 @@ Antes de executar este projeto, certifique-se de ter instalado:
     ```
 ## Inicialização
 
-Inicialize o projeto:
+1. Inicialize o projeto:
 
-```bash
-cd xlsx-mongodb
-```
+    ```bash
+    npm start
+    ```
 ## Stack utilizada
 
 [![My Skills](https://skillicons.dev/icons?i=nodejs,ts,mongodb)](https://skillicons.dev)
@@ -42,4 +42,3 @@ cd xlsx-mongodb
 ## Links
 
  - [XLSX - SheetJS](https://www.npmjs.com/package/xlsx)
-
