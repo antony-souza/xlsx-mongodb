@@ -20,5 +20,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(environtment.port, () => {
-    logger.info(`Server is running on port: ${environtment.port}`);
+    logger.debug(`Server is running on port: ${environtment.port}`);
 })
