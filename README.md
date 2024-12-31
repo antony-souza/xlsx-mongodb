@@ -3,7 +3,6 @@
 
 Este projeto demonstra como integrar a biblioteca `xlsx` para gerar planilhas Excel a partir de dados obtidos de um banco de dados.
 
-
 ## Pré-requisitos
 
 Antes de executar este projeto, certifique-se de ter instalado:
@@ -38,11 +37,6 @@ Antes de executar este projeto, certifique-se de ter instalado:
 
 [![My Skills](https://skillicons.dev/icons?i=nodejs,ts,mongodb)](https://skillicons.dev)
 
-
-## Linkss
-
- - [XLSX - SheetJS](https://www.npmjs.com/package/xlsx)
-
 ## Demonstração
 
 - **Informações do banco de dados**
@@ -53,3 +47,7 @@ Antes de executar este projeto, certifique-se de ter instalado:
 
 - **Executando arquivo `.xlsx` com dados do DB**
 ![image](https://github.com/user-attachments/assets/c7394e7e-518b-45db-8d61-3befbcd6dc9f)
+
+## Links
+
+ - [XLSX - SheetJS](https://www.npmjs.com/package/xlsx)
