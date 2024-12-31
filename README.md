@@ -14,23 +14,25 @@ Antes de executar este projeto, certifique-se de ter instalado:
 
 1. Clone o repositório:
 
-   ```bash
-   git clone https://github.com/antony-souza/xlsx-mongodb.git
-   ```
-   ```bash
-   cd xlsx-mongodb
-   ```
+    ```bash
+    git clone https://github.com/antony-souza/xlsx-mongodb.git
+    ```
+    ```bash
+    cd xlsx-mongodb
+    ```
 
 
 2. Instale as dependências:
-  ```bash
-  npm install
-  ```
+
+    ```bash
+    npm install
+    ```
 ## Inicialização
 
 Inicialize o projeto:
+
 ```bash
-npm start
+cd xlsx-mongodb
 ```
 ## Stack utilizada
 
