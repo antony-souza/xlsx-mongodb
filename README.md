@@ -20,7 +20,6 @@ Antes de executar este projeto, certifique-se de ter instalado:
     cd xlsx-mongodb
     ```
 
-
 2. Instale as dependências:
 
     ```bash
@@ -33,9 +32,28 @@ Antes de executar este projeto, certifique-se de ter instalado:
     ```bash
     npm start
     ```
-## Stack utilizada
 
-[![My Skills](https://skillicons.dev/icons?i=nodejs,ts,mongodb)](https://skillicons.dev)
+## Contribuição
+
+Faça um fork do repositório.
+
+1. Crie uma nova branch:
+
+    ```bash
+    git checkout -b nome-da-branch
+    ```
+2. Faça suas alterações:
+
+    ```bash
+    git commit -m "Adicionar nova funcionalidade"
+    ```
+3. Envie para a branch:
+
+    ```bash
+    git push origin nome-da-branch
+    ```
+
+Abra um pull request.
 
 ## Demonstração
 
@@ -47,6 +65,10 @@ Antes de executar este projeto, certifique-se de ter instalado:
 
 - **Executando arquivo `.xlsx` com dados do DB**
 ![image](https://github.com/user-attachments/assets/c7394e7e-518b-45db-8d61-3befbcd6dc9f)
+
+## Stack utilizada
+
+[![My Skills](https://skillicons.dev/icons?i=nodejs,ts,mongodb)](https://skillicons.dev)
 
 ## Links
 
